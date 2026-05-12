@@ -1,0 +1,2 @@
+Assignment 1
+Write a menu driven program that inputs 2 vectors u and v of dimension 3 and perform the following operations: Vector addition, Scalar multiplication, Dot product, Cross product, Orthogonality, Parallelism check.
