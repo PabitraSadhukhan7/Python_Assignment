@@ -1,0 +1,33 @@
+Assignment 4: Object-Oriented Programming (OOP)
+Create a class named Employee with the following:
+Attributes
+The constructor should initialize:
+name
+years_of_service
+Method
+Create a method named salary() that calculates salary using the formula:
+Salary=1500+100×years_of_service
+Create a subclass named Manager that overrides the salary() method using the formula:
+Salary=2500+120×years_of_service
+Database Creation
+Create a small dictionary-based database where:
+the key is the employee’s name
+the value is the corresponding object
+Populate the database with the following entries:
+samples = {
+    "Rahul": Employee("Rahul", 3),
+    "Bikash": Employee("Bikash", 1),
+    "Rajan": Manager("Rajan", 10),
+    "Priya": Manager("Priya", 3)
+}
+Tasks
+Return a table containing employee names and salaries in the following format:
+[[name, salary]]
+Example:
+[
+    ["Rahul", 1800],
+    ["Bikash", 1600],
+    ["Rajan", 3700],
+    ["Priya", 2860]
+]
+Compute and display the average salary of all employees.

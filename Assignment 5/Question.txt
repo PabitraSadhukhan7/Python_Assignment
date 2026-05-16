@@ -1,0 +1,27 @@
+Assignment 5: Statistics
+Write a Python program to generate 1000 random data points and perform statistical analysis on the generated data.
+Tasks
+Your program should compute the following:
+Mean of the data points
+Mean=∑x​/n
+Median of the data points
+Standard Deviation of the data points
+σ=sqrt(∑(x−μ)^2/n)
+
+Requirements
+Generate the random numbers using the random module.
+You may use the math module if necessary.
+Do not use external libraries such as NumPy or Pandas.
+Expected Steps
+Generate 1000 random numbers.
+Store them in a list.
+
+Calculate:
+-Mean
+-Median
+-Standard Deviation
+Display the results clearly.
+Example Output
+Mean: 49.87
+Median: 50.12
+Standard Deviation: 28.45

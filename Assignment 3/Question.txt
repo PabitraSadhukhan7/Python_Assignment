@@ -1,0 +1,18 @@
+Assignment 3: File I/O
+Copy and paste the content of the Wikipedia page on Supervised Learning into a text file:
+Supervised Learning – Wikipedia
+Write a program that:
+Opens and reads the text file.
+Counts the occurrences of each word in the file.
+Stores each word and its corresponding occurrence count in a dictionary.
+Requirements
+Use File I/O operations to read the file.
+Use a dictionary to store word frequencies.
+Ignore punctuation and treat uppercase and lowercase words as the same word (optional but recommended).
+Example Output
+{
+    "learning": 25,
+    "data": 18,
+    "model": 12,
+    "algorithm": 10
+}
