@@ -1,7 +1,5 @@
 Assignment 1: Vector Operations Program
-
 Write a menu-driven program that inputs two vectors u and v of dimension 3 and performs the following operations:
-
 Vector Addition
 Scalar Multiplication
 Dot Product
